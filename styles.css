@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.dummy {
+    position:fixed;
+     width: 1900px;
+     height: 1860px;
+     background-image:url('https://i.imgur.com/FjpGyFS.gif');
+     background-size: contain;
+     background-position:center;
+     background-repeat: no-repeat;
+     z-index:0;
+ }
+ 
+ .mom {
+   width:100%;
+   height:100%;
+   position:fixed;
+ }
+
+ .sis {
+  color: yellow;
+  width:80%;
+  height:100%;
+  font-size: 2em;
+  z-index: 1;
+  line-height: 0.7em;
+  padding: 20px;
+}
+
+.linkki {
+font-weight: bold;
+line-height: 2em;
+text-decoration: underline;
+}
+
+.valk {
+color: white
+}
+
+.otsikko {
+color: magenta;
+font-style: italic;
+font-weight: bold;
+font-size: 2em;
+}
+.ared {
+color: blue;
+background-color: rgba(255,255, 0, 0.6);;
+line-height: 1.1em;
+font-style: italic;
+font-weight: bold;
+}
+.ored {
+color: blue;
+background-color: rgba(0, 255, 255, 0.6);
+line-height: 1.1em;
+font-style: italic;
+font-weight: bold;
+
+}
+
+.red {
+color: magenta;
+}
+
+.sude {
+color: red;
+font-size: 2em;
+}
+
+#transition {
+ position:absolute;
+ z-index:1;
+}
+
+/* unvisited link */
+a:link {
+color: red;
+text-decoration: underline;
+background-color: rgba(0, 255, 255, 0.6);
+}
+
+/* visited link */
+a:visited {
+color: blue;
+text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
+
+
+
+ /* tablet */
+ @media only screen and (min-width: 600px) {
+ .sis {
+    color: yellow;
+    width:80%;
+    height:100%;
+    font-size: 9em;
+    z-index: 1;
+    line-height: 0.7em;
+    padding: 20px;
+  }
+
+.linkki {
+  font-weight: bold;
+  line-height: 2em;
+  text-decoration: underline;
+}
+
+.valk {
+  color: white
+}
+
+.otsikko {
+  color: magenta;
+  font-style: italic;
+  font-weight: bold;
+}
+.ared {
+  color: blue;
+  background-color: rgba(255,255, 0, 0.6);;
+  line-height: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+}
+.ored {
+  color: blue;
+  background-color: rgba(0, 255, 255, 0.6);
+  line-height: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+.red {
+  color: magenta;
+ }
+
+ .sude {
+  color: red;
+  font-size: 2em;
+ }
+ 
+ #transition {
+   position:absolute;
+   z-index:1;
+ }
+
+ /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ }
+
+ @media only screen and (min-width: 600px) {
+ .sis {
+    color: yellow;
+    width:80%;
+    height:100%;
+    font-size: 5em;
+    z-index: 1;
+    line-height: 0.7em;
+    padding: 20px;
+  }
+
+.linkki {
+  font-weight: bold;
+  line-height: 2em;
+  text-decoration: underline;
+}
+
+.valk {
+  color: white
+}
+
+.otsikko {
+  color: magenta;
+  font-style: italic;
+  font-weight: bold;
+}
+.ared {
+  color: blue;
+  background-color: rgba(255,255, 0, 0.6);;
+  line-height: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+}
+.ored {
+  color: blue;
+  background-color: rgba(0, 255, 255, 0.6);
+  line-height: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+.red {
+  color: magenta;
+ }
+
+ .sude {
+  color: red;
+  font-size: 2em;
+ }
+ 
+ #transition {
+   position:absolute;
+   z-index:1;
+ }
+
+ /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ }
+
+ /* känny */
+ @media only screen and (min-width: 768px) {
+  .sis {
+     color: yellow;
+     width:80%;
+     height:100%;
+     font-size: 9em;
+     z-index: 1;
+     line-height: 0.7em;
+     padding: 20px;
+   }
+ 
+ .linkki {
+   font-weight: bold;
+   line-height: 2em;
+   text-decoration: underline;
+ }
+ 
+ .valk {
+   color: white
+ }
+ 
+ .otsikko {
+   color: magenta;
+   font-style: italic;
+   font-weight: bold;
+ }
+ .ared {
+   color: blue;
+   background-color: rgba(255,255, 0, 0.6);;
+   line-height: 1.1em;
+   font-style: italic;
+   font-weight: bold;
+ }
+ .ored {
+   color: blue;
+   background-color: rgba(0, 255, 255, 0.6);
+   line-height: 1.1em;
+   font-style: italic;
+   font-weight: bold;
+   
+ }
+ 
+ .red {
+   color: magenta;
+  }
+ 
+  .sude {
+   color: red;
+   font-size: 2em;
+  }
+  
+  #transition {
+    position:absolute;
+    z-index:1;
+  }
+ 
+  /* unvisited link */
+ a:link {
+   color: red;
+   text-decoration: underline;
+ }
+ 
+ /* visited link */
+ a:visited {
+   color: blue;
+   text-decoration: underline;
+ }
+ 
+ /* mouse over link */
+ a:hover {
+   color: hotpink;
+ }
+ 
+ /* selected link */
+ a:active {
+   color: blue;
+ }
+  }
